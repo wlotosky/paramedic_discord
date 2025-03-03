@@ -1,0 +1,11 @@
+{
+  "name": "paramedic_discord",
+  "version": "1.0.0",
+  "description": "A Discord plugin to facilitate shift swapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gillian Lotosky",
+  "license": "ISC"
+}
