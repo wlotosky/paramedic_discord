@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "A Discord plugin to facilitate shift swapping",
   "main": "index.js",
+  "module": "common",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gillian Lotosky",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.18.0"
+    "discord.js": "^14.18.0",
+    "globals": "^16.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "eslint": "^9.21.0"
   }
 }
